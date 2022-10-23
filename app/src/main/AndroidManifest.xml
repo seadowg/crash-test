@@ -22,6 +22,8 @@
         </activity>
         <activity android:name="com.example.myapplication.Activity2" />
         <activity android:name="com.example.myapplication.Activity3" />
+
+        <service android:name="com.example.myapplication.CrashService" />
     </application>
 
 </manifest>

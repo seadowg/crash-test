@@ -15,8 +15,9 @@ class Activity3 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.text.text = "Activity3"
+        binding.button.text = "Crash"
 
-        binding.fab.setOnClickListener { view ->
+        binding.button.setOnClickListener { view ->
             throw RuntimeException()
         }
     }

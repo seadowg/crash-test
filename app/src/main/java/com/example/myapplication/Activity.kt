@@ -16,8 +16,9 @@ class Activity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.text.text = "Activity1"
+        binding.button.text = "Next"
 
-        binding.fab.setOnClickListener { view ->
+        binding.button.setOnClickListener { view ->
             startActivity(Intent(this, Activity2::class.java))
         }
     }
